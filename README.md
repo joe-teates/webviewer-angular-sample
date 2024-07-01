@@ -31,12 +31,24 @@ WebViewer comes with a 7-day trial without any feature limitations or trial key 
 
 Before you begin, make sure your development environment includes [Node.js](https://nodejs.org/en/).
 
+In order to evaluate the Apryse WebViewer, you need to obtain a trial key. More information can be found here:
+https://docs.apryse.com/documentation/web/get-started/trial-key/
+
+In order to set the license key, you will need to set the string in the WebViewer sample. One such way is by passing it into the constructor of the WebViewer: 
+https://docs.apryse.com/documentation/web/faq/add-license/#passing-into-constructor
+
+Follow the steps below to set the license key in this sample:
+ - Locate the app.component.ts file at webviewer-angular-sample/src/app/app.component.ts
+ - Replace "your_license_key" with your license
+ - Save the file
+
 ## Install
 
 ```
 git clone https://github.com/PDFTron/webviewer-angular-sample.git
 cd webviewer-angular-sample
 npm install
+npm install -g @angular/cli 
 ```
 
 ## Run

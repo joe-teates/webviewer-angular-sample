@@ -48,6 +48,7 @@ Follow the steps below to set the license key in this sample:
 git clone https://github.com/PDFTron/webviewer-angular-sample.git
 cd webviewer-angular-sample
 npm install
+npm install -g @angular/cli
 ```
 
 ## Run
